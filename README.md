@@ -1,0 +1,2 @@
+# opensuse-packaging
+Packaging scripts
