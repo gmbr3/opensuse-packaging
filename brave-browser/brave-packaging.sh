@@ -1,6 +1,6 @@
-my $old_version_number = $ARGV[0];
-my $version_number = $ARGV[1];
-my $chrome_version_number = $ARGV[2];
+old_version_number=$1
+version_number=$2
+chrome_version_number=$3
 cd home:gmbr3:Chromium
 cd brave-browser
 rm brave-browser-$old_version_number-patches.tar.xz

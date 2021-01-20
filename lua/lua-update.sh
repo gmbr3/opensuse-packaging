@@ -1,6 +1,6 @@
-my $old_version_number = $ARGV[0];
-my $version_number = $ARGV[1];
-my $package_ver = $ARGV[1];
+old_version_number=$1
+version_number=$2
+package_ver=$3
 cd home:gmbr3:Lua
 cd lua$package_ver
 rm -rf lua-$old_version_number.tar.gz

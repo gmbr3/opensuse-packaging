@@ -1,6 +1,6 @@
-my $old_version_number = $ARGV[0];
-my $old_version_trimmed = $ARGV[1];
-my $version_number = $ARGV[2];
+old_version_number=$1
+old_version_trimmed=$2
+version_number=$3
 cd home:gmbr3:Solus
 cd budgie-desktop
 rm -rf *+$old_version_trimmed.obscpio
